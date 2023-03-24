@@ -9,7 +9,7 @@
 //	for (int i = 0; i < length;i++)
 //		std::cout <<arr[i]<< ", ";
 //	std::cout << "\b\b]\n";
-//	std::cout << std::endl;
+//	std::cout << std::endl;1
 //}
 
 void show_arr(int arr[], const int length, int num1, int num2) {	
@@ -32,6 +32,8 @@ void serch_index(int arr[], const int langth, int bigin = 0) {
 			break;		}
 	std::cout << " On display its position number: " << arr[b] << " corresponds to the index " << b << '\n'<<std::endl;
 }
+
+
 
 
 
