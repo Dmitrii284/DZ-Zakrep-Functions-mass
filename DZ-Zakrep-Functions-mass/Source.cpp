@@ -36,6 +36,8 @@ void serch_index(int arr[], const int langth, int bigin = 0) {
 
 
 
+
+
 int main() {
 	setlocale(LC_ALL, "Rus");
 
