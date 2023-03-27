@@ -41,21 +41,9 @@ int serch_last_index(int arr[], const int length, int n, int begin) {
 }
 
 int arr_min(int arr[], const int length) {
-	int k, i, j;
-	int min = 0;
-	for (i = 0; i < length; i++) {
-		k = i;
-		min = arr[i];
-		for(j = i +1;j<length;j++)
-			if (arr[j]> min) {
-				k = j;
-				min = arr[j];
-			}
-		if (k != i) {
-			arr[k] = arr[i];
-			arr[i] = min;
-		}
-	}
+	int min = arr[0];
+	for (int i = 1; i < length; i++)
+		min = min < arr[i] ? min : arr[i];
 	return min;
 }
 
