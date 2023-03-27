@@ -75,6 +75,7 @@ int arr_max(int arr[], const int length) {
 	}
 	return max;
 }
+
 int mean_value(int arr[], const int length) {
 	int sum = 0;
 	for (int i = 0; i < length; i++)
