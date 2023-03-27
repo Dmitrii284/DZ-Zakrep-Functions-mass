@@ -82,6 +82,7 @@ int mean_value(int arr[], const int length) {
 	return (double)sum/length;
 }
 
+
 int range(int arr[], const int length, int num1, int num2) {	
 	for (int i = 0; i < length; i++)
 		if(arr[i] >= num1 && arr[i] <= num2)		
