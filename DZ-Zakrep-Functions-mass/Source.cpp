@@ -4,6 +4,8 @@
 #include <ctime>
 #include <cstdlib>
 
+
+
 void mass(int arr[], const int length) {
 	std::cout<<'[';
 	for (int i = 0; i < length;i++)
