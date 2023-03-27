@@ -88,6 +88,7 @@ int range(int arr[], const int length, int num1, int num2) {
 	    return arr[i];
 }
 
+
 int main() {
 	setlocale(LC_ALL, "Rus");
 
